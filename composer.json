@@ -1,0 +1,33 @@
+{
+    "name": "vs-project-management-system/fixtures-bundle",
+    "type": "symfony-bundle",
+    "description": "PMS fixtures bundle. It contains the fixtures for the pms system",
+    "keywords": [
+        "scheduling",
+        "summercamp",
+        "fixtures"
+    ],
+    "homepage": "http://daviddurost.net/projects/pms",
+    "license": "MIT",
+    "authors": [
+        {
+        "name": "David Durost",
+        "homepage": "http://daviddurost.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "1.2.*",
+        "doctrine/doctrine-fixtures-bundle": "2.2.*"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "PMS\\Bundle\\FixturesBundle\\": ""
+        }
+    }
+}

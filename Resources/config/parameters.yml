@@ -1,0 +1,7 @@
+parameters:
+    # Utility
+    pms.fixtures.address: 15
+    pms.fixtures.carousel: 2
+    pms.fixtures.carousel_item: 6
+    # User
+    pms.fixtures.user: 2
